@@ -3,7 +3,10 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
   <title>HTML Academy: Погнали</title>
+  <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
@@ -23,19 +26,99 @@
           <span class="main-nav__toggle-icon"></span>
           <span class="visually-hidden">Меню</span>
         </button>
-        <!-- <li><a class="main-nav__link" href="index.html">Главная</a></li> -->
         <li><a class="main-nav__link" href="service.html">О сервисе</a></li>
         <li><a class="main-nav__link" href="directions.html">Направления</a></li>
         <li><a class="main-nav__link" href="companions.html">Попутчики</a></li>
-        <button class="main-nav__topmenu-phone" type="button">
-          <span class="main-nav__topmenu-phone-icon"></span>
-          <span class="visually-hidden">Позвонить</span>
-        </button>
-        <li><a class="main-nav__link" href="https://htmlacademy.ru">HTML academy</a></li>
       </ul>
     </nav>
   </header>
 
+  <main class="page-main">
+    <section class="caption">
+      <h1 class="caption__title">В путешествие с крутыми попутчиками!</h1>
+      <ul class="page-main__list contact-list">
+        <li class="contact-list__item">
+          <a class="contact-list__link contact-list__link--phone" href="tel:88005558628">8 800 555-86-28</a>
+        </li>
+        <li class="contact-list__item">
+          <a class="contact-list__link contact-list__link--mail"
+            href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+        </li>
+      </ul>
+      <ul class="page-main__list user-list">
+        <li class="user-list__item">
+          <a class="user-list__login" href="#">Авторизация</a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="about-us">
+      <div class="about-us__quote blockquote">
+        <q class="blockquote__quote">«Лучшее приложение, что я видел в жизни!»</q>
+        <cite class="blockquote__author">Мурат Эльтазин главный редактор газеты «гаджетлайф»</cite>
+      </div>
+      <ul class="about-us__steps-list steps-list">
+        <li class="steps-list__item">Выберите направление</li>
+        <li class="steps-list__item">Изучите идеи путешественников</li>
+        <li class="steps-list__item">Находите тех, кто похож на вас</li>
+        <li class="steps-list__item">Путешествуйте вместе!</li>
+      </ul>
+      <div class="about-us__wrapper">
+        <h2 class="about-us__title">О сервисе</h2>
+        <p class="about-us__text">
+          Любое путешествие веселее с попутчиками, которые на одной волне с тобой!
+          Делитесь своими идеями путешествий и черпайте вдохновение в чужих.
+        </p>
+        <p class="about-us__text">
+          <b>А если найдете кого-то близкого по духу — скорее зовите в совместный трип!</b>
+        </p>
+      </div>
+    </section>
+
+    <section class="route">
+      <h2 class="route__title">Направления</h2>
+      <p class="route__text">
+        Мы не продаем туры и ничего не рекламируем.
+        Люди сами пишут о странах, куда хотели бы отправиться и чем можно там заняться.
+      </p>
+      <ul class="route__list route-list">
+        <li class="route-list__item">
+          <div class="route-card route-card--thailand">
+            <div class="route-card__inner route-card__inner--thailand">
+              <div class="route-card__wrapper">
+                <h3 class="route-card__country">Тайланд</h3>
+                <p class="route-card__user-quantity">18321</p>
+              </div>
+              <p class="route-card__text">Джунгли зовут!</p>
+            </div>
+          </div>
+        </li>
+        <li class="route-list__item">
+          <div class="route-card route-card--france">
+            <div class="route-card__inner route-card__inner--france">
+              <div class="route-card__wrapper">
+                <h3 class="route-card__country">Франция</h3>
+                <p class="route-card__user-quantity">12518</p>
+              </div>
+              <p class="route-card__text">Трэ бьен, манифик!</p>
+            </div>
+          </div>
+        </li>
+        <li class="route-list__item">
+          <div class="route-card route-card--czech">
+            <div class="route-card__inner route-card__inner--czech">
+              <div class="route-card__wrapper">
+                <h3 class="route-card__country">Чехия</h3>
+                <p class="route-card__user-quantity">5326</p>
+              </div>
+              <p class="route-card__text">Закоулки старой Европы</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <a class="route__all" href="form.html">Показать все</a>
+    </section>
+  </main>
 </body>
 
 </html>
