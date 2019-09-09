@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Погнали</title>
-  </head>
-  <body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Погнали</title>
+</head>
 
-  </body>
+<body>
+  <header class="page-header">
+    <nav class="main-nav main-nav--opened main-nav--nojs">
+      <ul class="main-nav__list">
+        <button class="main-nav__toggle" type="button">
+          <span class="main-nav__toggle-icon"></span>
+          <span class="visually-hidden">Меню</span>
+        </button>
+        <li><a class="main-nav__link main-nav__link--active" href="index.html">Главная</a></li>
+        <li><a class="main-nav__link" href="photo.html">Фото и видео</a></li>
+        <li class="main-nav__item main-nav__logo logo">
+          <a class="logo__link">
+            <picture>
+              <source media="(min-width: 1200px)" srcset="img/svg/logo-sedona-desktop.svg">
+              <source media="(min-width: 768px)" srcset="img/svg/logo-sedona-tablet.svg">
+              <img src="img/svg/logo-sedona-mobile.svg" alt="Герб Седоны" width="102" height="83" class="logo__image">
+            </picture>
+          </a>
+        </li>
+        <li><a class="main-nav__link" href="form.html">Форма отзыва</a></li>
+        <li><a class="main-nav__link" href="https://htmlacademy.ru">HTML academy</a></li>
+      </ul>
+    </nav>
+  </header>
+
+</body>
+
 </html>
