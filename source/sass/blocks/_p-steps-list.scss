@@ -1,0 +1,46 @@
+.steps-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  counter-reset: list;
+
+  color: $text-dark;
+  font-size: $font-size-18;
+  font-weight: 700;
+
+  &__item {
+    position: relative;
+    // min-height: 90px;
+    border-radius: 10px 10px 0 0;
+    background-color: $light-gold;
+    padding: 25px 50% 35px 25px;
+    margin-bottom: -10px;
+
+    &::after {
+      counter-increment: list;
+      content: counter(list);
+      position: absolute;
+      text-align: right;
+      right: 25px;
+      top: 25px;
+      color: $white;
+    }
+
+    &:first-child {
+      background-color: $mango-dark;
+    }
+
+    &:nth-child(2) {
+      background-color: $mango-middle;
+    }
+
+    &:nth-child(3) {
+      background-color: $mango-light;
+    }
+
+    &:last-child {
+      border-radius: 10px;
+      padding-bottom: 25px;
+    }
+  }
+}
