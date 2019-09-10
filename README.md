@@ -1,10 +1,5 @@
 # Личный проект «Погнали» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
-* Студент: [Николай Лемехов](https://up.htmlacademy.ru/adaptive/17/user/356451).
-* Наставник:  [Алексей Зольников](https://htmlacademy.ru/profile/id870391).
-
----
-
 **Обратите внимание, что папка с вашими исходными файлами — `source/`.**
 
 Полезный файл:
