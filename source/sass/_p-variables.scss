@@ -3,6 +3,10 @@
 $white: #ffffff;
 
 $text-dark: #161c35;
+$text-middle: #444444;
+$text-blue: #1d2e5b;
+
+$text-gray-30: rgba(68, 68, 68, 0.3);
 
 $mango-dark: #ff8d30;
 $mango-middle: #ffa530;
@@ -14,6 +18,7 @@ $blue-bg-middle: #e2e5f2;
 
 $blue-bg-middle: #192144;
 $blue-bg-dark: #161c35;
+$blue-bg-dark2: #141b3b;
 
 // Margins
 //
@@ -34,12 +39,24 @@ $margin-720: 720px;
 
 // Typography
 //
-// $font-family-light: "BloggerSansLight", helvetica, arial, sans-serif;
 $font-family-regular: "BloggerSans", helvetica, arial, sans-serif;
-// $font-family-medium: "BloggerSansMedium", helvetica, arial, sans-serif;
-// $font-family-bold: "BloggerSansBold", helvetica, arial, sans-serif;
 
 $font-size-root: 16px;
 $font-size-root-unitless: 16;
 
 $font-size-18: 18px;
+$font-size-21: 21px;
+$font-size-24: 24px;
+
+$line-height: 1.3;
+
+// Breakpoints
+//
+$mobile-width: 320px;
+$tablet-width: 768px;
+$desktop-width: 1200px;
+
+//Resolutions
+//
+$retina-dpi: 144dpi;
+$retina-dppx: 1.5dppx;
