@@ -1,0 +1,38 @@
+.companion-card {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-radius: 10px;
+
+  &__inner {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+    margin-top: -20px;
+    background-color: $white;
+    border-radius: 10px;
+    padding: 30px 40px 30px 40px;
+    text-align: center;
+  }
+
+  &__name {
+    margin: 0 auto;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  &__tags {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  &__transport {
+    margin: 0 auto;
+  }
+}
