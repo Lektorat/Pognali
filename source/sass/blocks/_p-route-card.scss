@@ -1,0 +1,87 @@
+.route-card {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-radius: 10px;
+
+  &__inner {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+    margin-top: -20px;
+    background-color: $white;
+    border-radius: 10px;
+    padding: 30px 25px 30px 25px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 25px;
+      top: 0;
+      border-radius: 2px;
+      transform: translateY(-50%);
+      width: 35px;
+      height: 24px;
+    }
+
+    &--thailand {
+      &::before {
+        background: url(../img/svg/flag-thailand.svg) no-repeat;
+      }
+    }
+
+    &--france {
+      &::before {
+        background: url(../img/svg/flag-france.svg) no-repeat;
+      }
+    }
+
+    &--czech {
+      &::before {
+        background: url(../img/svg/flag-czech.svg) no-repeat;
+      }
+    }
+  }
+
+  &__country {
+    margin: 0;
+    // width: 140px;
+    margin-bottom: 5px;
+    font-size: $font-size-21;
+    line-height: $font-size-21;
+  }
+
+  &__user-number {
+    position: relative;
+    margin: 0;
+    color: $text-gray-30;
+    font-size: $font-size-root;
+    line-height: 24px;
+    text-align: right;
+    padding-left: 20px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 5px;
+      top: 5px;
+      width: 10px;
+      height: 10px;
+      background-image: url(../img/svg/user.svg);
+      opacity: 0.1;
+    }
+  }
+
+  &__text {
+    margin: 0;
+    color: $text-gray-30;
+    font-weight: 100;
+    font-size: $font-size-root;
+  }
+}

@@ -1,0 +1,60 @@
+.about-us {
+  position: relative;
+  color: $white;
+  z-index: 3;
+  background-color: $blue-bg-middle;
+  margin-top: -280px;
+  padding-top: 310px;
+  border-radius: 0 0 30px 30px;
+  min-height: 350px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: -2;
+    left: 0;
+    bottom: 220px;
+    width: calc(130px);
+    height: 130px;
+    border-radius: 0 20px 20px 0;
+    background-color: $blue-bg-dark2;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: center;
+    bottom: 0;
+    background: no-repeat 0 0;
+    background-size: auto;
+    background-size: 100% 100%;
+    width: 290px;
+    height: 350px;
+    background-image: url(../img/about-mobile@1x.png);
+  }
+}
+
+.about-us__wrapper {
+  padding-top: 45px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.about-us__title {
+  margin: 0;
+  margin-bottom: 25px;
+  color: $mango-dark;
+}
+
+.about-us__text {
+  font-weight: 100;
+  line-height: $line-height;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.about-us__text--bold {
+  font-weight: 700;
+  margin: 0;
+}

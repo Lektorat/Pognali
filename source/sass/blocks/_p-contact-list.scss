@@ -1,0 +1,36 @@
+.contact-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  list-style: none;
+  padding-left: 0;
+
+  &__link {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+    &--phone {
+      background-color: $mango-dark;
+    }
+
+    &--mail {
+      background-color: $mango-light;
+    }
+  }
+
+  &--login {
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+  }
+
+  &__login {
+    border-radius: 50%;
+    padding: 10px;
+    color: $white;
+    background-color: $light-gold;
+  }
+}

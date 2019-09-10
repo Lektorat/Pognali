@@ -1,0 +1,15 @@
+.routes-list {
+  padding: 0;
+  list-style: none;
+  margin-bottom: 25px;
+
+  &__item {
+    position: relative;
+    margin-bottom: 10px;
+    overflow: hidden;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
