@@ -1,0 +1,37 @@
+.flag-list {
+  position: absolute;
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  top: -12px;
+  padding: 0;
+  margin: 0 auto;
+  justify-content: center;
+
+  &__item {
+    padding: 0 10px;
+  }
+
+  &__img {
+    position: static;
+    display: block;
+    background-repeat: no-repeat;
+    margin: 0;
+    width: 35px;
+    height: 24px;
+
+    border-radius: 5px;
+
+    &--srilanka {
+      background-image: url(../img/svg/flag-sri-lanka.svg);
+    }
+
+    &--thailand {
+      background-image: url(../img/svg/flag-thailand.svg);
+    }
+
+    &--seychelles {
+      background-image: url(../img/svg/flag-seychelles.svg);
+    }
+  }
+}

@@ -1,0 +1,52 @@
+.get-route {
+  background-color: $light-gold;
+  z-index: 4;
+  margin-top: -30px;
+  padding-top: 70px;
+  padding-bottom: 35px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 0 0 30px 30px;
+
+  &__address {
+    position: relative;
+    width: 60%;
+
+    margin-bottom: 31px;
+    padding: 0 2px 0 62px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    font-style: normal;
+    color: $blue-bg-middle;
+  }
+
+  &__img {
+    position: absolute;
+    left: 0;
+    top: -2px;
+    width: 45px;
+    height: 45px;
+    background-color: $blue-bg-middle;
+    border-radius: 50%;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: calc(50% - 7px);
+      top: calc(50% - 10px);
+      width: 14px;
+      height: 22px;
+      background-image: url(../img/svg/contacts-location.svg);
+    }
+  }
+
+  &__link {
+    box-sizing: border-box;
+    background-color: transparent;
+    padding-top: 22px;
+    padding-bottom: 20px;
+    border: 3px solid $blue-bg-middle;
+  }
+}

@@ -5,6 +5,11 @@
   justify-content: space-between;
   border-radius: 10px;
 
+  &__countries {
+    margin-top: -10px;
+    margin-bottom: -10px;
+  }
+
   &__inner {
     position: relative;
     display: flex;
@@ -22,14 +27,32 @@
   }
 
   &__name {
+    position: relative;
     margin: 0 auto;
     margin-bottom: 15px;
     text-align: center;
+    font-size: $font-size-21;
+    line-height: $font-size-21;
+    color: $text-blue;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 5px;
+      height: 5px;
+      border-radius: 5px;
+      background-color: $mango-dark;
+      left: -15px;
+      top: calc(50% - 5px);
+    }
   }
 
   &__tags {
     margin: 0;
     margin-bottom: 20px;
+    font-size: $font-size-root;
+    line-height: $font-size-26;
+    color: $text-middle;
   }
 
   &__transport {

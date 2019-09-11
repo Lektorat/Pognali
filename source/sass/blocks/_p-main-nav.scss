@@ -1,0 +1,40 @@
+.main-nav {
+  position: relative;
+  z-index: 10;
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 25px 25px 0;
+
+  &__nojs {
+    background-color: $white;
+
+    & .main-nav__logo {
+      margin: 0 0 70px;
+      background-image: none;
+    }
+  }
+
+  &__logo {
+    width: 100px;
+    height: 19px;
+    margin: 0 0 72px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+
+  &__toggle {
+    position: relative;
+    display: block;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    border: 0;
+    transition: 0.3s;
+    transition-property: all;
+    transition-property: background-color, box-shadow, color;
+  }
+}

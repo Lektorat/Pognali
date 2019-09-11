@@ -1,0 +1,52 @@
+.add-profile {
+  z-index: 6;
+  background-color: $blue-bg-light;
+  margin-top: -60px;
+  padding-top: 130px;
+  padding-bottom: 40px;
+  border-radius: 0 0 30px 30px;
+  padding-left: 25px;
+  padding-right: 25px;
+
+  &__wrapper {
+    position: relative;
+    padding-left: 25px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: -10px;
+      right: 0;
+      z-index: 100;
+      width: 100px;
+      height: 100px;
+      background-image: url(../img/svg/rates@2x.png) no-repeat;
+    }
+  }
+
+  &__title {
+    margin: 0;
+    font-size: $font-size-24;
+    color: $mango-dark;
+    margin-bottom: 25px;
+    width: 40%;
+  }
+
+  &__text {
+    margin: 0;
+    padding-right: 20px;
+    color: $text-middle;
+    font-weight: 100;
+    margin-bottom: 60px;
+  }
+
+  &__business-price {
+    display: inline-block;
+    // margin: 30px 0 29px;
+    font-weight: 700;
+    line-height: $font-size-root;
+    text-decoration: none;
+    color: $blue-bg-middle;
+    transition: 0.3s;
+  }
+}

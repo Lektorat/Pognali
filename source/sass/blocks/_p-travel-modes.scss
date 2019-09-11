@@ -21,9 +21,7 @@
   }
 }
 
-.travel-modes__checkbox:checked {
-  .travel-modes__img {
-    fill: $text-blue;
-    opacity: 1;
-  }
+.travel-modes__checkbox:checked .travel-modes__img {
+  fill: $text-blue;
+  opacity: 1;
 }
