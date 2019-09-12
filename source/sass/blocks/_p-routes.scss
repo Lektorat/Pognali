@@ -22,7 +22,12 @@
     margin: 0;
     padding-right: 20px;
     color: $text-middle;
+    line-height: $font-size-22;
     font-weight: 100;
     margin-bottom: 60px;
+  }
+
+  &__btn {
+    padding: 25px;
   }
 }

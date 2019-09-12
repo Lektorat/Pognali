@@ -3,8 +3,8 @@
   color: $white;
   z-index: 9;
   background-color: $blue-bg-middle;
-  margin-top: -280px;
-  padding-top: 310px;
+  margin-top: -300px;
+  padding-top: calc(300px + 30px);
   border-radius: 0 0 30px 30px;
   min-height: 350px;
 

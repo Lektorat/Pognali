@@ -1,28 +1,53 @@
 .main-nav {
   position: relative;
-  z-index: 10;
   display: flex;
-
+  z-index: 10;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 25px 25px 0;
+  -webkit-box-pack: justify;
 
-  &__nojs {
-    background-color: $white;
+  &--nojs {
+    background-color: #ffffff;
 
-    & .main-nav__logo {
-      margin: 0 0 70px;
+    .main-nav__site-list,
+    .main-nav__user-list,
+    .main-nav__contact-list {
+      display: block;
+      width: 100%;
+    }
+
+    .main-nav__social-list {
+      display: flex;
+    }
+
+    .main-nav__logo {
+      margin: 0 0 70px 0;
       background-image: none;
+    }
+
+    .main-nav__logo-image {
+      &--blue {
+        display: block;
+      }
+
+      &--white {
+        display: none;
+      }
     }
   }
 
   &__logo {
     width: 100px;
     height: 19px;
-    margin: 0 0 72px;
+    margin: 0 0 80px;
     background-position: 0 0;
     background-repeat: no-repeat;
     cursor: pointer;
+
+    &.main-nav__nojs {
+      // margin: 0 0 80px;
+      background-image: none;
+    }
   }
 
   &__toggle {
