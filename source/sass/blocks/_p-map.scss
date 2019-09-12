@@ -1,11 +1,22 @@
 .map {
+  position: relative;
   margin-top: -30px;
-
-  z-index: 1;
   background-color: $white;
   border-radius: 0;
-
-  height: 545px;
+  height: 355px;
   padding: 0;
   overflow: hidden;
+
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: 10;
+    left: calc(50% - 20px);
+    top: calc(50% - 37px);
+    width: 41px;
+    height: 41px;
+    background: no-repeat 0 0;
+    background-image: none;
+    background-image: url(../img/svg/map-marker.svg);
+  }
 }

@@ -1,6 +1,5 @@
 .get-route {
   background-color: $light-gold;
-  z-index: 4;
   margin-top: -30px;
   padding-top: 70px;
   padding-bottom: 35px;
@@ -47,6 +46,8 @@
     background-color: transparent;
     padding-top: 22px;
     padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
     border: 3px solid $blue-bg-middle;
   }
 }

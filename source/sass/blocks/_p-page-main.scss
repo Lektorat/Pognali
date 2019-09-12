@@ -18,5 +18,13 @@
     &--add-profile {
       z-index: 6;
     }
+
+    &--get-route {
+      z-index: 4;
+    }
+
+    &--map {
+      z-index: -2;
+    }
   }
 }
