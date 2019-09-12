@@ -1,0 +1,52 @@
+.flag-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+
+  &__item {
+    padding: 0 10px;
+  }
+
+  &__img {
+    position: static;
+    display: block;
+    background-repeat: no-repeat;
+    margin: 0;
+    width: 35px;
+    height: 24px;
+    border-radius: 5px;
+
+    &--srilanka {
+      background-image: url(../img/svg/flag-sri-lanka.svg);
+    }
+
+    &--thailand {
+      background-image: url(../img/svg/flag-thailand.svg);
+    }
+
+    &--seychelles {
+      background-image: url(../img/svg/flag-seychelles.svg);
+    }
+  }
+
+  &__subtitle {
+    position: relative;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    margin: 0 0 7px;
+    padding: 0 8px 0 12px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: left;
+    text-transform: lowercase;
+    color: #444444;
+    background-color: #ffffff;
+  }
+
+  &--main {
+  }
+}

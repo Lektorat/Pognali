@@ -1,0 +1,26 @@
+.blockquote {
+  display: flex;
+  flex-direction: column;
+  padding: 0 75px 0 25px;
+  font-size: 16px;
+  line-height: $font-size-22;
+  color: $white;
+  // margin-bottom: 30px;
+
+  width: 245px;
+  // margin: 0 0 20px;
+  // font-weight: 300;
+
+  &__quote {
+    margin-bottom: 25px;
+  }
+
+  &__author {
+    font-size: 16px;
+    font-style: normal;
+    line-height: 22px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+}

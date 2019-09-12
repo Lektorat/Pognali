@@ -1,0 +1,74 @@
+.companion-card {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-radius: 10px;
+
+  &__inner {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    margin-top: -20px;
+    background-color: $white;
+    border-radius: 10px;
+    padding: 30px 40px 30px 40px;
+    text-align: center;
+  }
+
+  &__countries {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  &__name {
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: 700;
+    font-size: $font-size-21;
+    line-height: $font-size-21;
+    color: $text-blue;
+    cursor: pointer;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 5px;
+      height: 5px;
+      border-radius: 5px;
+      left: -15px;
+      top: calc(50% - 5px);
+    }
+
+    &--firsova {
+      &::before {
+        background-color: $mango-dark;
+      }
+    }
+
+    &--demin {
+      &::before {
+        background-color: $green-apple;
+      }
+    }
+  }
+
+  &__tags {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: $font-size-root;
+    line-height: $font-size-26;
+    color: $text-middle;
+  }
+
+  &__transport {
+    padding: 0;
+    margin: 0 auto;
+  }
+}

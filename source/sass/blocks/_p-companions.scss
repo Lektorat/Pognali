@@ -1,0 +1,38 @@
+.companions {
+  background-color: $blue-bg-middle;
+  z-index: 7;
+  margin-top: -60px;
+  padding-top: 130px;
+  padding-bottom: 30px;
+  border-radius: 0 0 30px 30px;
+
+  &__intro {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  &__title {
+    margin: 0;
+    font-size: $font-size-24;
+    color: $mango-dark;
+    margin-bottom: 25px;
+  }
+
+  &__text {
+    margin: 0;
+    padding-right: 20px;
+    color: $white;
+    font-weight: 100;
+    line-height: $font-size-22;
+    margin-bottom: 30px;
+  }
+
+  &__bold {
+    margin: 0;
+    padding-right: 20px;
+    color: $white;
+    font-weight: 700;
+    line-height: $font-size-22;
+    margin-bottom: 60px;
+  }
+}

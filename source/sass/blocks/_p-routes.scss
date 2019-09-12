@@ -1,9 +1,15 @@
 .routes {
+  z-index: 8;
   background-color: $blue-bg-light;
   margin-top: -60px;
   padding-top: 130px;
   padding-bottom: 30px;
   border-radius: 0 0 30px 30px;
+
+  &__intro {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
 
   &__title {
     margin: 0;
@@ -16,7 +22,12 @@
     margin: 0;
     padding-right: 20px;
     color: $text-middle;
+    line-height: $font-size-22;
     font-weight: 100;
     margin-bottom: 60px;
+  }
+
+  &__btn {
+    padding: 25px;
   }
 }

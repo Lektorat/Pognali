@@ -1,0 +1,40 @@
+.registration {
+  background-color: $blue-bg-middle;
+  z-index: 5;
+  margin-top: -30px;
+  padding-bottom: 30px;
+  border-radius: 0 0 30px 30px;
+
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  color: $white;
+  background-color: $blue-bg-middle;
+
+  &__title {
+    margin: 0;
+    font-size: $font-size-24;
+    color: $mango-dark;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+
+  &__text {
+    margin: 0;
+    padding-right: 20px;
+    color: $white;
+    font-weight: 100;
+    text-align: center;
+    line-height: $font-size-22;
+    padding: 0 25px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  &__login-link {
+    color: $light-gold;
+    text-decoration: underline;
+    transition: 0.3s;
+  }
+}

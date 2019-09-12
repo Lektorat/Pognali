@@ -1,0 +1,34 @@
+.social-list {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  &--menu {
+    margin-bottom: 25px;
+
+    .social-list__img {
+      fill: $black-10;
+    }
+  }
+
+  &__link {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    font-size: 0;
+    border-radius: 50%;
+    transition: $duration-03;
+  }
+
+  &__img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: $duration-03;
+  }
+}

@@ -1,4 +1,30 @@
-.page-main__section {
-  position: relative;
-  padding: 30px 25px 10px;
+.page-main {
+  min-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+
+  &__section {
+    position: relative;
+    padding: 90px 25px 10px;
+
+    &--caption {
+      z-index: 10;
+    }
+
+    &--companion {
+      z-index: 7;
+    }
+
+    &--add-profile {
+      z-index: 6;
+    }
+
+    &--get-route {
+      z-index: 4;
+    }
+
+    &--map {
+      z-index: -2;
+    }
+  }
 }
